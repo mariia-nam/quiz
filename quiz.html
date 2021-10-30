@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Quiz</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+  <!-- Main CSS File Link -->
+  <link rel="stylesheet" type="text/css" href="quiz.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="quiz text-center">
+    <div id="quiz-headline">
+    <h3>Quiz</h3>
+      <p>Find out which product your dog will like the most!</p>
+    </div>
+    
+    <div id="question-container" class="hide">
+      <h4 id="question"></h4>
+      <div id="answer-buttons">
+      </div>
+    </div>
+    
+    <div class="controls-container">
+      <button class="btn " id="start-button">Start</button>
+    </div>
+
+    <div class="text-center hide" id="get-name">
+        <h4 id="name-checker">What is your dog's name?</h4>
+        <input type="text" id="dname">
+        <button class="btn margin" id="nextb">Next</button>
+        
+    </div>
+    
+    <div id="avocado" class="result-container hide">
+<div class="result">
+      <img src="https://cdn.shopify.com/s/files/1/0534/1711/5819/products/IMG_2351copy2_1024x1024@2x.png?v=1611072906" width='150px' height="150px"/>
+        <h3 class="margin">We think <span class="name-insert"></span>will look cute in Avocado Matching Set!</h3>
+        <p>Make sure to choose the right size and hurry up for walkies!</p>
+        <button class="btn">Buy Now</button>
+        </div>
+    </div>
+    
+      <div id="watermelon" class="result-container hide">
+<div class="result">
+      <img src="https://cdn.shopify.com/s/files/1/0534/1711/5819/products/IMG_6364_1024x1024@2x.png?v=1611072859" width='150px' height="150px"/>
+        <h3 class="margin">We think <span class="name-insert"></span>will look cute in Watermelon Matching Set!</h3>
+        <p>Grab the right size and go for walkies if <span class="name-insert"></span> is in the mood for it!</p>
+        <button class="btn">Buy Now</button>
+        </div>
+    </div>
+    
+      <div id="flannel" class="result-container hide">
+<div class="result">
+      <img src="https://cdn.shopify.com/s/files/1/0534/1711/5819/products/Flannel_1024x1024@2x.png?v=1611072929" width='150px' height="150px"/>
+        <h3 class="margin">We think <span class="name-insert"></span>will look cute in Flannel Matching Set</h3>
+        <p>Grab the right size, take a pic and share it with us!</p>
+        <button class="btn">Buy Now</button>
+        </div>
+    </div>
+  </div>
+
+   <!-- JavaScript Link-->
+   <script src="quiz.js"></script>
+</body>
+
+</html> 
